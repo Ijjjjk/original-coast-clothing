@@ -1,0 +1,18 @@
+{
+    // Consulte https://go.microsoft.com/fwlink/?LinkId=733558 
+    // para ver la documentación sobre el formato tasks.json
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "markdownlint",
+            "problemMatcher": [
+                "$markdownlint"
+            ],
+            "label": "markdownlint: Lint all Markdown files in the workspace with markdownlint",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
